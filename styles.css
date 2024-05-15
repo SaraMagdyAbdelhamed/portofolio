@@ -1,8 +1,11 @@
 body {
     font-family: 'Arial', sans-serif; /* Standard font across the page */
-    background-color: #f4f4f4; /* Light gray background for overall page */
+    /* background-color: #f4f4f4;  */
+  
 }
-
+.resume_body{
+    background-color: #e2d4da; 
+}
 .navbar {
     background-color: #fff; /* Light background for the navbar */
 }
@@ -46,4 +49,91 @@ img.rounded-circle {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+.btn-primary:hover {
+    background-color: #45a049;
+    border-color: #369636;
+}
+
+.btn-outline-primary {
+    color: #4CAF50;
+    border-color: #4CAF50;
+    background-color: transparent;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #4CAF50;
+    border-color: #3e8e41;
+}
+
+.timeline {
+    list-style: none;
+    padding: 0;
+}
+
+.card {
+    margin: 0 auto; /* Center the card */
+    max-width: 800px; /* Limit the card width */
+}
+
+.timeline-item {
+    margin-bottom: 20px;
+}
+
+.timeline-item h3 {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.timeline-item h4 {
+    margin: 0;
+    font-size: 1rem;
+    color: #666;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+    padding: 5px 0;
+    font-size: 1rem;
+}
+
+.skills-card {
+    margin: 10px;
+}
+
+.skills-card i {
+    color: #4CAF50; /* Matching the button color */
+}
+
+.skills-card .card-title {
+    font-size: 1rem;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-subtitle {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #666;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.card img.full-height {
+    height: 100%; /* Ensure the image covers the full height of the card */
+    width: 100%; /* Ensure the image covers the full width of the card */
+    object-fit: cover; /* Cover the image to fit in the allocated space */
 }
