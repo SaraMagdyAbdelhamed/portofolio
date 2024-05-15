@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif; /* Standard font across the page */
+    background-color: #f4f4f4; /* Light gray background for overall page */
+}
+
+.navbar {
+    background-color: #fff; /* Light background for the navbar */
+}
+
+.nav-link {
+    font-size: 0.85rem; /* Smaller font size for navbar links */
+    color: #333; /* Dark text for better readability */
+}
+
+.nav-link.active, .nav-link:focus {
+    color: #e2d4da; /* Specific color for active link */
+}
+
+.navbar-brand {
+    font-size: 1rem; /* Adjusted font size for brand/logo area */
+    color: #333; /* Consistent text color */
+    display: flex;
+    align-items: center;
+    width: 50px;
+}
+
+.social-links a {
+    color: #333; /* Icons using a darker grey to match text */
+    font-size: 20px; /* Larger size for visibility */
+    margin: 0 12px; /* Spacing around social links */
+}
+
+img.rounded-circle {
+    width: 150px;
+    height: 150px;
+    object-fit: contain; /* Ensures the image is covered without distortion */
+}
+
+.bg-mint {
+    background-color: #e2d4da; /* Mint background color for the profile card */
+}
+
+.profile-card, .text-section {
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
