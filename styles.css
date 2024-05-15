@@ -4,7 +4,7 @@ body {
   
 }
 .resume_body{
-    background-color: #e2d4da; 
+    background-color: #f6eff2; 
 }
 .navbar {
     background-color: #fff; /* Light background for the navbar */
@@ -16,7 +16,7 @@ body {
 }
 
 .nav-link.active, .nav-link:focus {
-    color: #e2d4da; /* Specific color for active link */
+    color: #f6eff2; /* Specific color for active link */
 }
 
 .navbar-brand {
@@ -40,7 +40,7 @@ img.rounded-circle {
 }
 
 .bg-mint {
-    background-color: #e2d4da; /* Mint background color for the profile card */
+    background-color: #f6eff2; /* Mint background color for the profile card */
 }
 
 .profile-card, .text-section {
@@ -136,4 +136,8 @@ ul li {
     height: 100%; /* Ensure the image covers the full height of the card */
     width: 100%; /* Ensure the image covers the full width of the card */
     object-fit: cover; /* Cover the image to fit in the allocated space */
+}
+
+.projects{
+    background-color: #f6eff2;
 }
