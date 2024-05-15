@@ -40,7 +40,7 @@ img.rounded-circle {
 }
 
 .bg-mint {
-    background-color: #f6eff2; /* Mint background color for the profile card */
+    background-color: #f6eff2; 
 }
 
 .profile-card, .text-section {
@@ -139,7 +139,7 @@ ul li {
 }
 
 .projects{
-    background-color: #f6eff2;
+    /* background-color: #f6eff2; */
 }
 
 
